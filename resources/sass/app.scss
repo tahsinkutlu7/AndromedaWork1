@@ -1,0 +1,112 @@
+// Font-Awesome
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/regular";
+@import "~@fortawesome/fontawesome-free/scss/solid";
+@import "~@fortawesome/fontawesome-free/css/brands";
+body {
+    font-family: 'Nunito';
+    color: #93939f;
+}
+
+.containerDiv {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.rowDiv {
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    background: #f4f6fe;
+    width: 50%;
+}
+
+.elementDiv {
+    background: #fff;
+    border-radius: 10px;
+}
+
+.inputDiv {
+    padding: 5%;
+    display: flex;
+}
+
+i.fa-search {
+    font-size: 25px;
+}
+
+input[type=search] {
+    width: 100%;
+    padding-left: 15px;
+    letter-spacing: 1px;
+    &:focus {
+        outline: 0;
+    }
+}
+
+.hrDiv {
+    height: 1px;
+    background: #93939f;
+}
+
+.trendingShortCutDiv {
+    padding: 5%;
+}
+
+.titleB {
+    font-size: 13px;
+    color: #93939f;
+}
+
+.trendingDiv {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.trendingColorDiv {
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    color: #2d344d;
+}
+
+.trendingPurpleDiv {
+    background: #f9effa;
+}
+
+.trendingBlueDiv {
+    background: #e6f6f2;
+}
+
+.trendingGrayDiv {
+    background: #f4f3fd;
+}
+
+.recentSearchDiv {
+    padding: 0 5% 5%;
+    color: #2d344d;
+}
+
+.recentSearchElementDiv {
+    margin: 10px 0;
+    &:hover {
+        background: #ebeaf3;
+    }
+}
+
+.recentSearchButton {
+    display: none;
+    float: right;
+    font-size: 19px;
+    background: transparent;
+    outline: none;
+}
+
+@media (max-width:1200px) {
+    .trendingColorDiv {
+        margin: 5px 5px 5px 0;
+    }
+}
